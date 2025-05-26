@@ -1,0 +1,62 @@
+.todo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todo-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-search {
+  margin-bottom: 20px;
+}
+
+.todo-section {
+  margin-bottom: 30px;
+}
+
+.todo-section-title {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item-text {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.todo-item-completed {
+  flex: 1;
+  margin-right: 10px;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-item-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.todo-item-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-item-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-item-button {
+  min-width: 60px;
+}
